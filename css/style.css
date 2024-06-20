@@ -1,8 +1,85 @@
-@import url(style.css);
+@import url(variables.css);
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Roboto:wght@500&display=swap');
 
 *{
     padding: 0;
     margin: 0;
     font-family: "EncodeSans-Regular";
     box-sizing: border-box;
+    font-family: "Open Sans", sans-serif;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    height: 100vh;
+}
+
+.header {
+    width: 100%;
+    background-color: var(--color-3);
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 5px;
+}
+
+.title__header {
+    color: var(--color-1);
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.header p{
+    color: var(--color-2);
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+
+.input__search{
+    width: 100%;
+    height: 40px;
+    border: none;
+    border-radius: 25px;
+    padding-left: 15px;
+}
+
+.main__body {
+    display: grid;
+    grid-auto-flow: row;
+    padding: 0px 15px;
+    gap: 5px;
+    overflow-y: scroll;
+}
+
+.section__main {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    width: 100%;
+}
+
+.div__image {
+
+}
+
+.div__image img{
+    height: 55px;
+    width: 55px;
+    border-radius: 100%;
+}
+
+
+.text__main {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.Name {
+
+}
+
+.country {
 }
