@@ -1,7 +1,6 @@
 export const printItems = async(items) => {
     let plantilla = "";
     items.forEach(elements => {
-        console.log(elements)
         plantilla += /*html*/`
         <section class="section__main">
         <div class="div__image">
